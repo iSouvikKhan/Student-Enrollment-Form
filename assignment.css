@@ -1,0 +1,129 @@
+html {
+  height: 100%;
+}
+body {
+  background-color: #f0f8ff;
+}
+.first_box {
+  border: 1px solid black;
+  border-radius: 5px;
+  height: 100%;
+  background-color: #ffffff;
+  padding: 0.2%;
+}
+.second_box {
+  border: 1px solid black;
+  border-radius: 5px;
+  height: 100%;
+  background-color: #66e7c0;
+  position: relative;
+}
+.header {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  color: #ffffff;
+}
+.footer {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  color: #ffffff;
+}
+.custom {
+  background: #ffffff;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+}
+
+.custom1 {
+  border-right: 2px solid #66e7c0;
+  margin-top: 20px;
+  margin-bottom: 70px;
+}
+
+.custom2 {
+  border-left: 2px solid #66e7c0;
+  margin-top: 20px;
+  margin-bottom: 70px;
+}
+.new {
+  margin-top: 5%;
+}
+.new3 {
+  width: 10px;
+  display: inline-block;
+}
+.adjustment {
+  padding-left: 25px;
+}
+input:hover {
+  border: 1px solid black;
+}
+.next h3 {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  margin-bottom: 30px;
+}
+.table thead {
+  color: #ffffff;
+  background-color: lightgreen;
+}
+@media screen and (min-width: 0px) and (max-width: 767px) {
+  #line1 {
+    border-right: 2px solid #f0f8ff;
+  }
+}
+
+@media screen and (min-width: 0px) and (max-width: 767px) {
+  #line2 {
+    border-right: 2px solid #f0f8ff;
+  }
+}
+.form-check{
+  display: inline-block;
+}
+.fade_in{
+  text-align: left;
+  animation: fadeInAnimation ease 3s;
+}
+@keyframes fadeInAnimation{
+  0%{
+    opacity: 0;
+  }
+  50%{
+    opacity: 0.5;
+  }
+  100%{
+    opacity: 1;
+  }
+}
+.table tr p, .table tr a{
+  margin: 0;
+  padding: 0;
+}
+.table tr img{
+  display: block;
+  margin: auto;
+  text-align: center;
+}
+.table {
+  border: 2px solid yellowgreen;
+}
+.wrap{
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+
+  -ms-word-break: break-all;
+  /* This is the dangerous one in WebKit, as it breaks things wherever */
+  word-break: break-all;
+  /* Instead use this non-standard one: */
+  word-break: break-word;
+
+  /* Adds a hyphen where the word breaks, if supported (No Blink) */
+  -ms-hyphens: auto;
+  -moz-hyphens: auto;
+  -webkit-hyphens: auto;
+  hyphens: auto;
+}
